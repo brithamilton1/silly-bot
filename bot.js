@@ -10,7 +10,7 @@ function answerQuery(query) {
     return "I do not care too much about weather, I'm locked inside a data center.";
   return "Sorry Dave, I cannot do that."
   
-  if (v.include(query, "tea")
+  if (v.include(query, "tea"))
 	  return "I would love some tea, but they have not created one for silicon-based life forms yet."
   
 }
